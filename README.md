@@ -22,8 +22,8 @@ npm install
 
 ## Functionalities
 * Registed yourself first if you don't have an account already. If you just want to test, you can the dummy credentials below directly to log in : 
-   ```User name : aman```
-   ```Password : aman```
+   ```User name : divi```
+   ```Password : divi```
 * Login into your account
 * After logging in, you can create your own posts to share with other people.
 * Author (and author alone) can edit or delete a post he/she created later.
