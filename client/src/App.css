@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-light: #222;
+  --text-dark: #fff;
+
+  --bg-light: #fff;
+  --bg-dark: #222;
+}
+
+main {
+  padding: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+header a {
+  text-decoration: none;
+  color: #222;
+}
+
+header a.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* backdrop-filter: blur(5px); */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 101;
+}
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.not-found h1 {
+  margin: 0;
+  font-weight: 600;
+}
+.not-found h2 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.page-not-found {
+  font-size: 3rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.light-theme {
+  color: var(--text-light);
+  background-color: var(--bg-light);
+  transition: background 0.2s linear;
+}
+
+.dark-theme {
+  color: var(--text-dark);
+  background-color: var(--bg-dark);
+  transition: background 0.2s linear;
+}

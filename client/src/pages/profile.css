@@ -1,0 +1,50 @@
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.user-profile{
+    margin: 0;
+    text-align: center;
+}
+
+.user-name {
+    font-size: 3.5rem;
+  background: linear-gradient(
+    55deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(229deg 100% 23%) 11%,
+  hsl(222deg 100% 27%) 22%,
+  hsl(217deg 100% 30%) 33%,
+  hsl(213deg 100% 33%) 44%,
+  hsl(209deg 100% 36%) 56%,
+  hsl(206deg 100% 38%) 67%,
+  hsl(204deg 94% 42%) 78%,
+  hsl(205deg 74% 50%) 89%,
+  hsl(204deg 81% 57%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.post-category{
+    font-size: 1.8rem;
+    font-weight: 650;
+    color: #222;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-category svg{
+    margin-right: 10px;
+    height: 30px;
+}
